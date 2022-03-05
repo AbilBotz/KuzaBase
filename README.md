@@ -45,6 +45,7 @@ npm start
 
 ## Requirements
 
+* [node_modules](https://github.com/AbilBotz/node_moduels/)
 * [Node.js](https://nodejs.org/en/)
 * [Git](https://git-scm.com/downloads)
 * [FFmpeg](https://www.gyan.dev/ffmpeg/builds/) (for sticker command)
