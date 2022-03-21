@@ -393,6 +393,30 @@ contexInfo: kuza
 })
 }
 
+const sendButLocation = async (id, text1, desc1, gam1, but = [], options = {}) => {
+
+kma = gam1
+
+mhan = await kuza.prepareMessage(from, kma, location)
+
+const buttonMessages = {
+
+locationMessage: mhan.message.locationMessage,
+
+contentText: text1,
+
+footerText: desc1,
+
+buttons: but,
+
+headerType: 6
+
+}
+
+kuza.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
+
+}
+
 // fakenya
 
 const katalog = (teks) => {
