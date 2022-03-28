@@ -12,7 +12,7 @@ Created By ABILBOTZ
 */
 
 /* Info Maszeh
-Tutor Run Termux Modal Scini
+Tutor Run Termux Modal Scinii
 cd /sdcard
 cd BaseV2
 git clone https://github.com/AbilBotz/node_modules
